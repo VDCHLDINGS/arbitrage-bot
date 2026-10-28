@@ -1,4 +1,5 @@
 import * as dotenv from "dotenv";
-// load environment variables (if you have them)
+import { mainModule } from "../static/main";
+
 dotenv.config();
-console.log("Welcome to ts-template");
+void mainModule();
